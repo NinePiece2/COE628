@@ -1,0 +1,8 @@
+Adding library dependencies to GCC in Netbeans:
+
+File->Project Properties->Build->Linker->Libraries->add Library/add standard Library.
+For example for the -lpthread or -pthread option:
+
+add standard Library --> Posix Threads
+
+From: https://stackoverflow.com/questions/18184694/where-to-set-gcc-library-dependencies-in-netbeans
